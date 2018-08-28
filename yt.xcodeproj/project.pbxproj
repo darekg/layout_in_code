@@ -14,6 +14,7 @@
 		E5752BA6212C79B2002CDF76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5752BA4212C79B2002CDF76 /* Main.storyboard */; };
 		E5752BA8212C79B4002CDF76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5752BA7212C79B4002CDF76 /* Assets.xcassets */; };
 		E5752BAB212C79B4002CDF76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5752BA9212C79B4002CDF76 /* LaunchScreen.storyboard */; };
+		E5EA11B42134073E00F894BB /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA11B32134073E00F894BB /* Video.swift */; };
 		E5F2F1F821301B8500AB43FB /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F2F1F721301B8500AB43FB /* MenuBar.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		E5752BA7212C79B4002CDF76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5752BAA212C79B4002CDF76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5752BAC212C79B4002CDF76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5EA11B32134073E00F894BB /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		E5F2F1F721301B8500AB43FB /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +103,7 @@
 		E5F2F1F621301AAD00AB43FB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E5EA11B32134073E00F894BB /* Video.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E572145B212D92D2004609D8 /* Extension.swift in Sources */,
+				E5EA11B42134073E00F894BB /* Video.swift in Sources */,
 				E572145E212D9369004609D8 /* VideoCell.swift in Sources */,
 				E5752BA3212C79B2002CDF76 /* HomeController.swift in Sources */,
 				E5752BA1212C79B2002CDF76 /* AppDelegate.swift in Sources */,
